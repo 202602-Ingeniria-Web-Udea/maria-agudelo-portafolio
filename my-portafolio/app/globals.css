@@ -5,4 +5,38 @@
   --color-button: #333769;
   --color-button-hover: #0d0d38;
   --color-white: #ffffff;
+  --color-black: #2b2b2b;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --text-title: 48px;    
+  --text-subtitle1: 32px; 
+  --text-subtitle2: 18px;
+  --text-body: 15px;        
+}
+
+@layer base {
+  h1 {
+    font-size: var(--text-title);
+    font-weight: 700;
+    line-height: 124%;
+    color: var(--color-black);
+  }
+
+  h2 {
+    font-size: var(--text-subtitle1);
+    font-weight: 600;
+    line-height: 124%;
+  }
+
+  h3 {
+    font-size: var(--text-subtitle2);
+    font-weight: 500;
+    line-height: 124%;
+  }
+
+  p {
+    font-size: var(--text-body);
+    font-weight: 400;
+    line-height: 124%;
+  }
 }
