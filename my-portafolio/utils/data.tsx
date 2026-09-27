@@ -86,4 +86,22 @@ const SoftSkills = [
     }, 
 ]
 
-export { SocialIcons, About, Languages, ProgrammingLanguages, SoftSkills};
+const Knowledge = [
+    {
+        icon: 'bxs:data',
+        title: 'knowledge 1',
+        description: 'bla bla',
+    },
+    {
+        icon: 'carbon:chart-line-data',
+        title: 'knowledge 2',
+        description: 'bla bla',
+    },
+    {
+        icon: 'arcticons:microsoft-power-bi',
+        title: 'knowledge 3',
+        description: 'bla bla',
+    },
+]
+
+export { SocialIcons, About, Languages, ProgrammingLanguages, SoftSkills, Knowledge};
