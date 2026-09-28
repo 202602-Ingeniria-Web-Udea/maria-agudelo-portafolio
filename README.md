@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio | Maria Agudelo
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-16.3.6-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel)
 
-First, run the development server:
+Welcome to my personal portfolio repository. This project showcases my academic background, technical skills, and practical work as an 8th-semester Systems Engineering student specializing in **Data Engineering** and **Software Quality Assurance (QA)**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Check out the live website deployed on Vercel:
+👉 **[Insert your Vercel URL here]**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack & Architecture
 
-To learn more about Next.js, take a look at the following resources:
+This portfolio is built using modern web development practices and components:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, Turbopack)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment & Hosting:** [Vercel](https://vercel.com/)
+- **Architecture Pattern:** Clean modular structure inspired by Atomic Design principles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💡 About Me
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🎓 **Education:** 8th-semester Systems Engineering student.
+- 🎯 **Specialization:** Data Engineering (ETL, SQL, Data Modeling) & Software Quality Assurance (Automation, Testing Strategies, API Testing).
+- ⚙️ **Focus:** Building robust data pipelines and ensuring software reliability through rigorous testing methodologies.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📁 Repository Structure
+
+```text
+├── app/                  # Next.js App Router (Pages, Layouts, Global Styles)
+│   ├── globals.css       # Tailwind CSS setup
+│   ├── layout.tsx        # Main application layout
+│   └── page.tsx          # Home page entry point
+├── components/           # Reusable UI components
+├── public/               # Static assets (Images, Icons)
+├── utils/                # Helper functions and utilities
+├── package.json          # Project dependencies and scripts
+└── README.md             # Project documentation
