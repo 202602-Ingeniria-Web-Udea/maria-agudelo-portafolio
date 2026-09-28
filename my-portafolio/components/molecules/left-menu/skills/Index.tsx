@@ -1,6 +1,6 @@
 import React from 'react'
 import { SoftSkills } from '@/utils/data'
-import Skill from '@/components/atoms/left-menu/skills/Index'
+import Skill from '@/components/molecules/left-menu/skill-title/Index'
 
 const Index = () => {
   return (

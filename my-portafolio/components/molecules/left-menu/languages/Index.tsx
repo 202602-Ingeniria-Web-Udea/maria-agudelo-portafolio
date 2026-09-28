@@ -1,7 +1,7 @@
 import React from 'react'
 import { Languages, ProgrammingLanguages} from '@/utils/data'
-import Titles from '@/components/atoms/left-menu/two-col-titles/Index'
-import ProgressBar from '@/components/atoms/left-menu/progress-bar/Index'
+import Titles from '@/components/molecules/left-menu/two-col-titles/Index'
+import ProgressBar from '@/components/atoms/progress-bar/Index'
 
 const Data = {
     Languages,

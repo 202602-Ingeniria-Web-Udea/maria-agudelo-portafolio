@@ -104,4 +104,22 @@ const Knowledge = [
     },
 ]
 
-export { SocialIcons, About, Languages, ProgrammingLanguages, SoftSkills, Knowledge};
+const Education = [
+    {
+        institution: 'Universidad de Antioquia',
+        degree: 'Ingeniería de Sistemas',
+        date: '2023 - now',
+        detail: 'Relevant Courses: Fundamentos de Sistemas de Información, Métodos Estadísticos, Arquitectura de Software, Estructuras de Datos, Bases de Datos, Modelos y Simulación de Sistemas II, Calidad de Software.',
+    },
+]
+
+const Portfolio = [
+    {
+        image: '',
+        title: 'Proyecto_KAGGLE',
+        description: 'Repositorio destinado al desarrollo del proyecto del curso de Modelos I, basado en una competencia de Kaggle.',
+        url: '',
+    },
+]
+
+export { SocialIcons, About, Languages, ProgrammingLanguages, SoftSkills, Knowledge, Education, Portfolio};

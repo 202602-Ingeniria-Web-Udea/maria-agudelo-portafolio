@@ -1,6 +1,6 @@
 import React from 'react'
 import { Knowledge } from '@/utils/data'
-import Box from '@/components/atoms/main-content/boxes/Index'
+import Box from '@/components/molecules/main-content/boxes-grid/boxes/Index'
 
 const Index = () => {
   return (

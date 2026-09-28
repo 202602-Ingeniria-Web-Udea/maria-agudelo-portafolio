@@ -1,6 +1,6 @@
 import React from 'react'
 import { About } from '@/utils/data'
-import Titles from '@/components/atoms/left-menu/two-col-titles/Index'
+import Titles from '@/components/molecules/left-menu/two-col-titles/Index'
 
 const Index = () => {
   return (
