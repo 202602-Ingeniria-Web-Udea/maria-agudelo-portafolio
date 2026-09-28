@@ -44,7 +44,7 @@ const Languages = [
     },
     {
         language: 'English',
-        percentage: '85%',
+        percentage: '90%',
     },
     {
         language: 'Portuguese',
@@ -88,28 +88,31 @@ const SoftSkills = [
 
 const Knowledge = [
     {
-        icon: 'bxs:data',
-        title: 'knowledge 1',
-        description: 'bla bla',
+        icon: 'bi:shield-fill-check',
+        title: 'Quality Assurance (QA)',
+        description: 'Serenity BDD, Selenium WebDriver, Cypress, Cucumber, Postman, JUnit, Mockito, SpringBootTest, WebMvcTest, JaCoCo',
     },
     {
-        icon: 'carbon:chart-line-data',
-        title: 'knowledge 2',
-        description: 'bla bla',
+        icon: 'bxs:data',
+        title: 'Data Engineering',
+        description: 'PostgreSQL, Pandas, Data Modeling, Google Apps Scripts, Power Platform',
     },
     {
         icon: 'arcticons:microsoft-power-bi',
-        title: 'knowledge 3',
-        description: 'bla bla',
+        title: 'Engineering & Tools',
+        description: 'Git/GitHub, CI/CD Pipelines, Next.js / TypeScript basics, Agile Methodologies (Scrum).',
     },
 ]
 
 const Education = [
     {
         institution: 'Universidad de Antioquia',
-        degree: 'Ingeniería de Sistemas',
+        degree: 'Systems Engineering',
         date: '2023 - now',
-        detail: 'Relevant Courses: Fundamentos de Sistemas de Información, Métodos Estadísticos, Arquitectura de Software, Estructuras de Datos, Bases de Datos, Modelos y Simulación de Sistemas II, Calidad de Software.',
+        detail: `Currently in my 8th semester, pursuing a strong academic background centered on Data Engineering and 
+        Software Quality Assurance. My coursework and hands-on projects focus on relational and non-relational database 
+        design, ETL pipeline development, software testing methodologies, and automated testing frameworks, combining 
+        analytical data modeling with rigorous quality control standards.`,
     },
 ]
 

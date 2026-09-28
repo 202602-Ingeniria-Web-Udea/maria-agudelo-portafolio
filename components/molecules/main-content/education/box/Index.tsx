@@ -7,11 +7,11 @@ const Index = () => {
   return (
     <div className='bg-white gap-3'>
         {Education.map((item) => (
-            <div key={item.institution} className='flex flex-row items-center p-15'>
-                <div className='w-[40%]'>
+            <div key={item.institution} className='flex flex-col items-start p-6 lg:flex-row lg:items-center lg:p-15'>
+                <div className='w-full lg:w-[40%]'>
                   <Header title={item.institution} subtitle={item.degree} date={item.date}/>
                 </div>
-                <div className='w-[60%]'>
+                <div className='w-full lg:w-[60%]'>
                   <Detail detail={item.detail}/>
                 </div>
             </div>

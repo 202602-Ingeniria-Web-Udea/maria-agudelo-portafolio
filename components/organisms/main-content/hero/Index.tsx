@@ -7,12 +7,12 @@ import Education from '@/components/molecules/main-content/education/box/Index'
 const Index = () => {
   return (
     <div className='flex flex-col gap-15'>
-        <div className='flex flex-row justify-around items-center w-250 h-117 bg-white relative overflow-hidden gap-5'> 
-            <div className='p-15 pr-0 w-[60%] z-10'>
+        <div className='relative flex h-auto w-full flex-col items-center justify-around gap-5 overflow-hidden bg-white lg:h-117 lg:w-250 lg:flex-row'> 
+          <div className='z-10 w-full p-6 lg:w-[60%] lg:p-15 lg:pr-0'>
                 <Hero />
             </div>
-            <div className='h-full flex items-end justify-end w-[40%] pr-15 pt-6'>
-                <img src='/no-bg.png' alt='hero' className='max-h-full w-auto object-cotain object-bottom'/>
+          <div className='flex h-64 w-full items-center justify-center lg:h-full lg:w-[40%] lg:items-end lg:justify-end lg:pr-15 lg:pt-6'>
+            <img src='/no-bg.png' alt='hero' className='max-h-full max-w-full w-auto object-contain object-bottom'/>
             </div>
         </div>
     </div>

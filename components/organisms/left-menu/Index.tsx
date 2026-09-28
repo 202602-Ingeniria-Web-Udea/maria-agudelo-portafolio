@@ -6,7 +6,7 @@ import SoftSkills from '@/components/molecules/left-menu/skills/Index'
 
 const Index = () => {
   return (
-    <div className='flex flex-col items-center gap-5 bg-white w-76.25 h-auto'>
+    <div className='flex w-full flex-col items-center gap-5 bg-white lg:w-76.25'>
         <Profile />
         <About />
         <Languages title='Languages'/>

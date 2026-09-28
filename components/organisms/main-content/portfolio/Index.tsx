@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className='flex flex-col gap-15'>
         <div>
-            <Banner title='Portfolio' description='Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum' />
+            <Banner title='Portfolio' description='A showcase of academic, personal, and practical projects demonstrating my problem-solving skills across software engineering, data analysis, and quality assurance. This collection highlights my ability to build functional web applications, design efficient databases, write clean code, and deliver reliable technical solutions from concept to deployment.' />
             <Carousel />
         </div>
     </div>

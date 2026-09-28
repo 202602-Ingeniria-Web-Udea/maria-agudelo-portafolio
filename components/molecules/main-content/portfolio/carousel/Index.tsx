@@ -6,7 +6,7 @@ export const Carousel: React.FC = () => {
 
   return (
     <div className="relative min-h-[450px] w-full flex items-center justify-center p-3">
-      <div className="w-96 relative h-96">
+      <div className="relative h-96 w-full max-w-96">
         {Portfolio.map((item, index) => {
           
           const prevId = `carousel-${index === 0 ? total : index}`;
@@ -23,9 +23,9 @@ export const Carousel: React.FC = () => {
               />
 
               {/* Tarjeta del carrusel */}
-              <div className="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+              <div className="absolute left-1/2 top-1/2 z-0 w-full max-w-96 -translate-x-1/2 -translate-y-1/2 transform rounded-lg bg-white opacity-0 shadow-lg transition-all duration-300 peer-checked:z-10 peer-checked:opacity-100">
                 <img
-                  className="rounded-t-lg w-96 h-64 object-cover"
+                  className="h-64 w-full rounded-t-lg object-cover"
                   src={item.image? item.image : '/github.png'}
                   alt={item.title}
                 />
