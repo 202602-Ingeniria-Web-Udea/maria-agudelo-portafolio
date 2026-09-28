@@ -2,27 +2,22 @@ const SocialIcons = [
     {
         name: 'Instagram',
         icon: 'akar-icons:instagram-fill',
-        link: '',
+        link: 'https://www.instagram.com/m_agudelo.28?stkn=MTYzNGVoOHptazBvaw==',
     },
     {
         name: 'Linkedin',
         icon: 'akar-icons:linkedin-fill',
-        link: '',
+        link: 'https://www.linkedin.com/in/maria-de-los-angeles-agudelo-759a22331?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
     },
     {
         name: 'Github',
         icon: 'akar-icons:github-fill',
-        link: '',
+        link: 'https://github.com/MariAgudelo2/',
     },
     {
         name: 'mail',
         icon: 'charm:mail',
-        link: '',
-    },
-    {
-        name: 'phone',
-        icon: 'basil:phone-solid',
-        link: '',
+        link: 'mailto:maria.aagudelo@edea.edu.co?subject=Job%20Opportunity%20-%20Maria%20Agudelo',
     },
 ];
 
@@ -119,10 +114,22 @@ const Education = [
 const Portfolio = [
     {
         image: '',
-        title: 'Proyecto_KAGGLE',
-        description: 'Repositorio destinado al desarrollo del proyecto del curso de Modelos I, basado en una competencia de Kaggle.',
-        url: '',
+        title: 'Kaggle Project',
+        description: 'Repository for the Model I course project, developed around a Kaggle competition.',
+        url: 'https://github.com/MariAgudelo2/Proyecto_KAGGLE',
     },
+    {
+        image: '',
+        title: 'UdeA Sports Agent',
+        description: 'An accessible chatbot that lets the university community check space availability and make reservations through a conversational menu, without having to visit the office. Available 24/7.',
+        url: 'https://github.com/MariAgudelo2/UdeA_Sport_Agent',
+    },
+    {
+        image: '',
+        title: 'Automated Finance API Tests',
+        description: 'An automated test suite for a financial management API. It validates user registration and login, category creation, and income and expense transactions, including invalid input scenarios. Built with Java, Serenity BDD, and Cucumber.',
+        url: 'https://github.com/MariAgudelo2/Automated-API-Tests-Finance-App',
+    }
 ]
 
 export { SocialIcons, About, Languages, ProgrammingLanguages, SoftSkills, Knowledge, Education, Portfolio};

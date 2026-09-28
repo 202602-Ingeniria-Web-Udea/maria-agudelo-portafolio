@@ -11,7 +11,7 @@ const Index = () => {
         <p>
             8th-semester Systems Engineering student specializing in Data Engineering and Quality Assurance (QA). Experienced in designing data pipelines, writing SQL queries, and implementing automated testing frameworks to ensure software reliability and data integrity. Passionate about data-driven decision making and building bug-free, scalable applications.
         </p>
-        <ButtonHire />
+        <ButtonHire link='mailto:maria.aagudelo@edea.edu.co?subject=Job%20Opportunity%20-%20Maria%20Agudelo'/>
     </div>
   )
 }

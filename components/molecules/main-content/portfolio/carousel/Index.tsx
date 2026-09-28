@@ -1,5 +1,6 @@
 import React from 'react';
 import { Portfolio } from '@/utils/data';
+import LearnMore from '@/components/atoms/learn-more/Index'
 
 export const Carousel: React.FC = () => {
   const total = Portfolio.length;
@@ -18,11 +19,10 @@ export const Carousel: React.FC = () => {
                 className="sr-only peer"
                 type="radio"
                 name="carousel"
-                id={item.title}
+                id={`carousel-${index + 1}`}
                 defaultChecked={index === 0}
               />
 
-              {/* Tarjeta del carrusel */}
               <div className="absolute left-1/2 top-1/2 z-0 w-full max-w-96 -translate-x-1/2 -translate-y-1/2 transform rounded-lg bg-white opacity-0 shadow-lg transition-all duration-300 peer-checked:z-10 peer-checked:opacity-100">
                 <img
                   className="h-64 w-full rounded-t-lg object-cover"
@@ -37,6 +37,7 @@ export const Carousel: React.FC = () => {
                   <p className="hover:cursor-pointer py-3 text-gray-600 leading-6 text-sm">
                     {item.description}
                   </p>
+                  <LearnMore link={item.url}/>
                 </div>
 
                 <div className="absolute top-1/2 w-full flex justify-between z-20 px-2 pointer-events-none">
