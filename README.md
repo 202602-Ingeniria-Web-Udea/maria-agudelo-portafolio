@@ -12,7 +12,7 @@ Welcome to my personal portfolio repository. This project showcases my academic 
 ## 🚀 Live Demo
 
 Check out the live website deployed on Vercel:
-👉 **[Insert your Vercel URL here]**
+portfolio-ude-a2.vercel.app
 
 ---
 
